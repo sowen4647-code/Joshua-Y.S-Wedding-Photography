@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, serif;
+  line-height: 1.6;
+  background: #faf9f2;
+  color: #323232;
+}
+
+/* Nav */
+
+.navbar {
+  background: #323232;
+  padding:30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+/* Logo Text */
+
+.logo {
+  color: #faf9f2;
+  text-decoration: none;
+  font-weight: Super Light;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+}
+
+/* Controls nav text color */
+.nav-links a {
+  color: #faf9f2;
+  text-decoration: none;
+  font-weight: medium;
+}
+
+.nav-links a:hover {
+  color: #b35400;
+}
+
+/*image*/
+
+img {
+  width:1000px;
+  height: auto;
+  align: center;
+}
+
+/* Primary content */
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.container h2 {
+  font-family: 'Playfar Display', serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: #b35400;
+}
+
+.container h1 {
+  font-family: 'Playfar Display', serif;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: #b35400;
+}
+
+.container h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: #393939;
+}
+
+.container p {
+  max-width: 600px
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+/* Hero Section */
+
+.hero {
+  background: #264653;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f4a261;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+/* About Page Image Grid */
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /* 3 Columns */
+  grid-template-rows: repeat(2,300px); /* 2 Columns*/
+  gap: 20px;
+  width: 90%;
+  max-width: 1000px;
+  max-width: 1200px;
+  align: center;
+  padding: 5px 20px;
+  margin:auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  align:center;
+  margin:auto;
+}
+
+.btn:hover {
+  background: #e76f51;
+}
+
+/* AI helped with CSS Contact Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background: #323232;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #3c3c3c;
+}
+
+.two-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  Margin: 60px;
+  padding: 20px
+}
+
+.two-images {
+  width: 100;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: auto;
+}
+
+/* Footer */
+
+footer {
+  background: #323232;
+  color: white;
+  padding: 30px 20px;
+  margin-top: auto;
+}
+
+
